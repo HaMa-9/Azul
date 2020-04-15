@@ -14,6 +14,6 @@ class Table(numPlaces: Int) {
     }
 
     fun pickFromPlace (color: Stone, player: Player){
-        place.pick(color, player)
+        // todo: from which place to pick? place.pick(color, player)
     }
 }
