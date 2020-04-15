@@ -1,9 +1,7 @@
+package com.kotlin.Azul.Elements
+
 class Bag() {
     private var stones = mutableListOf<Stone>()
-
-    enum class Stone {
-        BLUE, RED, YELLOW, BLACK, GREEN
-    }
 
     init {
         stones.addAll(listOf(
