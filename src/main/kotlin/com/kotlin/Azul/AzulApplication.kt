@@ -1,4 +1,4 @@
-package com.okta.kotlin.Azul
+package com.kotlin.Azul
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
