@@ -35,4 +35,8 @@ class Bag() {
     fun add(stonesToAdd: List<Stone>) {
         stones.addAll(stonesToAdd)
     }
+
+    override fun toString():String{
+        return "- " + stones.size + " - " + stones.toString()
+    }
 }
