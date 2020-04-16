@@ -5,18 +5,21 @@ class Place {
 
     private fun isEmpty(): Boolean = stones.isEmpty()
 
-    fun pick(color: Stone): List<Stone>? {
-        if (!stones.contains(color)) {
+    fun getStones(): MutableList<Stone>? {
+        if (isEmpty()) {
             print("this move is not possible")
         } else {
-            //todo: move all stones of this color to players hand
-            //todo: move all other stones to center
+            return stones
         }
         return null
     }
 
     fun add(stonesToAdd: List<Stone>) {
         stones.addAll(stonesToAdd)
+    }
+
+    fun removeAll() {
+        stones = mutableListOf()
     }
 
     override fun toString(): String {
