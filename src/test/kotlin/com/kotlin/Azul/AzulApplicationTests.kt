@@ -1,4 +1,4 @@
-package com.okta.kotlin.Azul
+package com.kotlin.Azul
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
