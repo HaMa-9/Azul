@@ -13,7 +13,7 @@ class Bag() {
                 Stone.BLUE, Stone.RED, Stone.YELLOW, Stone.BLACK, Stone.GREEN))
     }
 
-    private fun containsAtLeastN(n: Int): Boolean = stones.size >= n
+    fun containsAtLeastN(n: Int): Boolean = stones.size >= n
 
     fun shuffle() = stones.shuffle()
 
